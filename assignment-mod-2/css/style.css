@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+p {
+	font-family: arial;
+	width: 90%;
+}
+div {
+	position: relative;
+}
+div#one {
+	position: relative;
+	}
+#aa {
+	position: relative;
+	width: 90%;
+	margin: auto;
+	background-color: grey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: green 3px solid;
+}
+#bb {
+	position: relative;
+	width: 90%;
+	margin: auto;
+	background-color: orange;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: red 3px solid;
+}
+#cc {
+	position: relative;
+	width: 90%;
+	margin: auto;
+	background-color: yellow;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: pink 3px solid;
+}
+
+div#two {
+	position: relative;
+	
+	
+}
+div#three {
+	position: relative;
+	
+	}
+h2#hone {
+	position: relative;
+	width: 10%;
+	left: 90%;
+	margin: 0px;
+	background-color: red;
+	border: blue 1px solid;
+}
+h2#htwo {
+	position: relative;
+	width: 10%;
+	left: 90%;
+	margin: 0px;
+	background-color: blue;
+	border: white 1px solid;
+}
+h2#hthree {
+	position: relative;
+	width: 10%;
+	left: 90%;
+	margin: 0px;
+	background-color: white;
+	border: red 1px solid;
+}
+@media (min-width: 992px) {
+	.col-md-4
+	{
+		float: left;
+		width: 33.33%;
+		
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6
+	{
+		float: left;
+		width: 50%;
+		
+	}
+}
+@media (max-width: 767px) {
+	.col-xs-12
+	{
+		width: 100%;
+		float: left;
+		
+	}
+}

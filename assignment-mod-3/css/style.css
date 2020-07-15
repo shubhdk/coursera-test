@@ -1,0 +1,69 @@
+body {
+	font-family: 'Merriweather', serif
+}
+#big-1 {
+	border: 3px solid black;
+	background-color: grey;
+	color: white;
+	overflow: hidden;
+	width: 90%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+#big-2 {
+	border: 3px solid black;
+	background-color: grey;
+	color: white;
+	overflow: hidden;
+	width: 90%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+#big-3 {
+	border: 3px solid black;
+	background-color: grey;
+	color: white;
+	overflow: hidden;
+	width: 90%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.brand h1:hover, .brand h1:hover {
+	text-decoration: none;
+	color: green;
+}
+
+#menu {
+	margin-bottom: 20px;
+}
+p {
+	margin-left: 5px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: pink;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: grey;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#big-3 {
+	
+	width: 95%;
+}
+}
+
+@media (max-width: 767px) {
+	#content .container {
+        padding-left: 0px; 
+	}
+}
+}
